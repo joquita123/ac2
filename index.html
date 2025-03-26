@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meu Perfil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Meu Perfil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção de Portfólio -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Meu Portfólio</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 1</h5>
+                        <p class="card-text">Desenvolvimento de um site responsivo para uma loja virtual, utilizando HTML, CSS e Bootstrap.</p>
+                        <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="data:image/png;base64,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"" class="card-img-top" alt="Projeto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 2</h5>
+                        <p class="card-text">Criação de um sistema de gerenciamento de tarefas com integração de banco de dados.</p>
+                        <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvFq-YiIOzrdqIy_AWLZf8MqBCfyo2Fpyf9w&s" class="card-img-top" alt="Projeto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 3</h5>
+                        <p class="card-text">Desenvolvimento de um aplicativo web para agendamento de consultas médicas.</p>
+                        <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>Siga-me nas redes sociais:</p>
+        <a href="#" class="text-white me-3">GitHub</a>
+        <a href="#" class="text-white me-3">LinkedIn</a>
+        <a href="#" class="text-white">Instagram</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
